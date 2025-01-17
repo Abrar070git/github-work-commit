@@ -1,0 +1,27 @@
+cd /c/devops
+
+git init
+
+code .   -----> to create a file in vsstudio
+
+git status
+
+git add .
+
+git status
+
+git reset head or git reset -----> this will reset the file
+
+git commit -m "modified hi.txt
+git log --oneline
+git checkout add the number of modified filename
+git add filename 
+git checkout filenumber -- filename
+
+"
+#to check the id number 
+
+git log -p -1   ------> then copy the number from there then you can revert
+
+git revert b0bbc08e3b247116c0a3da58a7ee1f4c6646b4c8
+

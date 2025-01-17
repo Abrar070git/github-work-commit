@@ -1,0 +1,22 @@
+let say you deleted something in your file
+
+you can retrieve it by using "checkout" command
+
+git checkout filename
+
+step2:
+
+now let say you changed all the files data now how would you want it back as it was before
+
+git status
+git checkout -f
+
+step3:
+
+let say there are 1000 logs that you need to check
+
+if you want to check the last 2 
+
+you will need to write
+
+git log -p -2
