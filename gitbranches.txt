@@ -1,0 +1,11 @@
+git branch branchname  ---> to create a new branch
+
+to switch the branch type
+
+git checkout feature  
+
+to delete the branch 
+
+git checkout -d branchname   ---> make sure you are on the main branch when you delete the one you want to delete
+
+always test the code in different branch
