@@ -1,0 +1,21 @@
+git config --global user.name
+git config --global user.email
+git config --global --edit
+
+
+git init
+
+git status
+
+git add index.html
+
+git status
+
+git commit -m "initial commit"
+
+
+step2 -----> if there are multiple files in git directory
+
+git add .
+or 
+git add -A
